@@ -2200,7 +2200,7 @@ input, select, textarea {
 		ul.icons li {
 			display: inline-block;
 			padding: 0 1em 0 0;
-			border:none;
+			border: none;
 		}
 
 			ul.icons li:last-child {
@@ -2363,6 +2363,21 @@ input, select, textarea {
 						}
 
 		}
+
+/* Tech-Stacks */
+	ul.tech-stacks {
+		list-style: none;
+		padding-left: 0;
+	}
+		ul.tech-stacks li {
+			display: inline-block;
+			border: none;
+			padding: 1em 0 0 0;
+		}
+			/* ul.tech-stacks li .tech-stacks:before {
+				font-size: 1.5em;
+			} */
+
 
 /* Table */
 
