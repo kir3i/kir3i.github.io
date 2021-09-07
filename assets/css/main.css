@@ -117,7 +117,7 @@ input, select, textarea {
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #fde67c !important;
+			color: #c0bebe !important;
 			text-decoration: none;
 		}
 
@@ -131,7 +131,7 @@ input, select, textarea {
 	}
 
 	p {
-		margin: 0 0 2em 0;
+		margin: 0 0 1em 0;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -145,6 +145,10 @@ input, select, textarea {
 			color: inherit;
 			text-decoration: none;
 		}
+
+	h4, h5, h6 {
+		margin-bottom: 0.5em;
+	}
 
 	h1 {
 		font-size: 2em;
@@ -2368,16 +2372,29 @@ input, select, textarea {
 	ul.tech-stacks {
 		list-style: none;
 		padding-left: 0;
+		margin: 0 0 1em 0;
 	}
 		ul.tech-stacks li {
 			display: inline-block;
 			border: none;
-			padding: 1em 0 0 0;
+			padding: 0.5em 0 0 0;
 		}
-			/* ul.tech-stacks li .tech-stacks:before {
-				font-size: 1.5em;
-			} */
 
+		ul.tech-stacks li:after {
+			/* font-size: 1.5em; */
+		}
+		ul.tech-stacks li:last-child:after {
+		}
+
+/* Simple List */
+	div.simple-list {
+		margin-left: 1em;
+	}
+			div.simple-list ul li {
+				margin:0;
+				padding:0;
+				border: none;
+			}
 
 /* Table */
 
